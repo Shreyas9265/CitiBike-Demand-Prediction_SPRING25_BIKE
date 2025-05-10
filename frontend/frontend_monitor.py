@@ -57,3 +57,5 @@ st.plotly_chart(fig, use_container_width=True)
 # Display MAE stats
 st.subheader(" MAE Summary")
 st.metric("Average MAE", f"{mae_by_hour['MAE'].mean():.3f}")
+
+
